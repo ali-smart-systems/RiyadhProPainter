@@ -1,0 +1,1 @@
+export default function sitemap(){const b='https://riyadhpropainter.com';return ['','/services','/areas/al-arid','/areas/al-yasmin','/areas/an-narjis','/contact'].map((p,i)=>({url:b+p,lastModified:new Date(),changeFrequency:i?'monthly':'weekly',priority:i?0.8:1}))}
