@@ -1,1 +1,6 @@
-export default function sitemap(){const b='https://riyadhpropainter.com';return ['','/services','/areas/al-arid','/areas/al-yasmin','/areas/an-narjis','/contact'].map((p,i)=>({url:b+p,changeFrequency:i?'monthly':'weekly',priority:i?0.8:1}))}
+const site = 'https://www.riyadhpropainter.com';
+
+export default function sitemap() {
+  const paths = ['', '/services', '/areas/al-arid', '/areas/al-yasmin', '/areas/an-narjis', '/contact'];
+  return paths.map((path) => ({ url: `${site}${path}` }));
+}
